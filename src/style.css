@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: StratosSkyeng;
+  src: local('StratosSkyeng'),
+    url('/fonts/stratosskyengweb-regular.woff2') format('woff2'),
+    url('/fonts/stratosskyengweb-regular.woff') format('woff');
+}
+
+.container {
+  background-color: #004980;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-shirt {
+  background-color: #004980;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.div_block {
+  width: 480px;
+  height: 459px;
+  left: 272px;
+  top: 158px;
+  background: #c2f5ff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.h1_title {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: StratousSkyeng;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #004980;
+  margin-bottom: 46px;
+}
+
+.level {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 67px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.level_item {
+  width: 98px;
+  height: 98px;
+  left: 341px;
+  top: 354px;
+  background: #fff;
+  border-radius: 12px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: StratosSkyeng;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+
+  /* or 112% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  color: #0080c1;
+  cursor: pointer;
+}
+
+.btn {
+  width: 246px;
+  height: 50px;
+  left: 389px;
+  top: 519px;
+
+  /* Salad / 60 */
+
+  background: #7ac100;
+  border-radius: 12px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: StratosSkyeng;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border: 0;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 23px;
+  padding-bottom: 35px;
+  padding-top: 22px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 22px;
+}
+
+.header-timer {
+  width: 155px;
+}
+
+.header-timer-p {
+  display: flex;
+  gap: 57px;
+  justify-content: flex-end;
+}
+
+.time-timer {
+  height: 32px;
+  width: 28px;
+  top: 22px;
+  left: 61px;
+  font-style: normal;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #fff;
+}
+
+.timer {
+  width: 155px;
+  height: 72px;
+  left: 22px;
+  top: 41px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: StratosSkyeng;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #fff;
+}
+
+.body-shirt {
+  padding-left: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.card-wrapper {
+  width: 95px;
+  height: 130px;
+  position: relative;
+}
+
+.back-card {
+  background-image: url('./img/рубашка.png');
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  z-index: 10;
+}
+
+.front-card {
+  width: 100%;
+  height: 130px;
+}
